@@ -1,0 +1,26 @@
+"*":
+  core:
+    customFileTypes:
+      "source.asp.vb.net": [
+        "bas"
+        "frm"
+        "cls"
+      ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "kts-theme-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    atomicSoftTabs: false
+    fontSize: 11
+    lineHeight: 1.1
+    showLineNumbers: false
+    tabLength: 4
+  "exception-reporting":
+    userId: "220c82b8-4cf4-41de-b25c-8c855bbb586a"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

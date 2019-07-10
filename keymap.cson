@@ -1,0 +1,69 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+#
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
+
+  'atom-text-editor':
+   'ctrl-a': 'editor:delete-line'
+   'f6': 'fuzzy-finder:toggle-buffer-finder'
+   'shift-f6': 'fuzzy-finder:toggle-file-finder'
+   'f2' : 'application:open-file'
+   'alt-d': 'core:delete'    # delete selection
+   'alt-w' :'core:close'
+   'alt-f2' : 'bookmarks:jump-to-next-bookmark'
+   'ctrl-g' : 'find-and-replace:find-next'
+   'alt-;' : 'editor:toggle-line-comments'
+   'alt-g' : 'go-to-line:toggle'
+
+   'ctrl-/' : 'symbols-view:go-to-declaration'
+
+   'alt-k' : 'key-binding-resolver:toggle'
+   'ctrl-.' : 'symbols-view:go-to-declaration'
+   'ctrl-,' : 'symbols-view:return-from-declaration'
+   'ctrl-m' : 'symbols-view:toggle-project-symbols'
+
+   'shift-f4': 'user:insert-date'
+
+   #'alt-b': 'selection-mode:toggle-without-deselecting'
+   'alt-l': 'user:toggle-line-selection'
+   'alt-u': 'selection-mode:cancel'
+   'f12' : 'bracket-matcher:go-to-matching-bracket'
+   'ctrl-shift-V': 'clipboard-history:paste'
+   'ctrl-o'  : "open-this:here"
+
+   'ctrl-h': 'pane:split-up-and-copy-active-item'
+   'alt-h' : 'core:close'
+
+
+
+# need a way to have a selection marked, then keep the mark while moving the cursor SafeArrayBound
+
+# 'ctrl-del' : delete from cursor to end of line

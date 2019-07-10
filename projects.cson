@@ -1,0 +1,23 @@
+[
+  {
+    title: "Tcs X2 Web App"
+    paths: [
+      "C:\\Users\\kts\\MARKE\\Taricco\\TcsX2-WebApp"
+    ]
+    color: "blue"
+  }
+  {
+    title: "Tcs X2 Web Server"
+    paths: [
+      "C:\\Users\\kts\\MARKE\\Taricco\\TcsX2-WebServer"
+    ]
+    color: "red"
+  }
+  {
+    title: "Tcs X2 Wizard"
+    paths: [
+      "C:\\Users\\kts\\MARKE\\Taricco\\TcsX2-Wizard"
+    ]
+    color: "green"
+  }
+]
